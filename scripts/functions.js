@@ -81,7 +81,7 @@ function convertToSeconds(number){
 convertToSeconds(2);
 
 
-*/
+
 function temperature(){
     let celsius = prompt("Enter Temperature");
     let fahrenheit = (celsius*9/5) + 32;
@@ -90,3 +90,8 @@ function temperature(){
 
 
 //c-f
+
+func temp(){
+    if c = prompt("enter temp");
+    else c = prompt
+}*/

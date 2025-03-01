@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Move the character</h1>
+
+    <div class="game-container">
+        <div id="character"></div>
+    </div>
+
+    <div class="controls">
+        <button onclick="">Left</button>
+    </div>
+
+    <script src="./scripts/game.js"></script>
+</body>
+</html>
+
+
+document.getElementById("submit").addEventListener("click", function () {
+    let temp = document.getElementById("temp").value;
+    let outfitSuggestion = "";
+    if (temp >= 25) {
+      outfitSuggestion = "Wear shorts and a t-shirt.";
+    } else if (temp >= 15) {
+      outfitSuggestion = "Wear jeans and a light jacket.";
+    } else {
+      outfitSuggestion = "Wear a coat, scarf, and gloves.";
+    }
+    document.getElementById("outfit").innerText = outfitSuggestion;
+  });
+  
+ 
